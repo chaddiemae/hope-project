@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hope Project</title>
+	<link rel="stylesheet" type="text/css" href="css/w3.css">
+	<link rel="stylesheet" type="text/css" href="css/colors.css">
+	<style>
+	td{
+  border: 1px solid none;
+	</style>
+	<script>
+		function addToCart() {
+			window.alert("Order has been added to Cart!")
+		}
+	</script>
+</head>
+<body>
+	<div class="w3-container ivory">
+		<table class="w3-centered" align="center" width="1200">
+			<tr align="center">
+			<td><img src="images\logo.png" style="width: 200px;"></td>
+			<td style="text-align: right;">
+			<p class="text-redorange bold hover-text-orange"><b>Welcome to Hope Project! Kindly read our Terms and Conditions before ordering.</b></p>
+			<p class="text-redorange bold"><b><span class="hover-text-orange"><a href="SignUp page.html">Login/Signup</a></span></b></p>
+			</td>
+			</tr>
+		</table>
+	</div>
+	<div class="w3-bar orange w3-card-4">
+		<p class="w3-bar-item text-white hover-text-pale bold "><a href="Home page.html">HOME PAGE</a></p>
+		<p class="w3-bar-item text-white hover-text-pale bold "><a href="Allmerch.html"> MERCH COMPILATION</a></p>
+		<p class="w3-bar-item text-white hover-text-pale bold"><a href="Terms.html">TERMS AND CONDITIONS</a></p>
+		<p class="w3-bar-item text-white hover-text-pale bold"><a href="Pawssion.html">PAWSSION PROJECT</a></p>
+	</div>		
+
+<table class="w3-center w3-content w3-padding-32">
+  <tr>
+    <td style="width: 400px;" class="w3-content w3-padding-64 w3-container w3-cell-top"><img src="images/Tumbler 1.png" style="width: 350px; height: 400px;"></td>
+    <td width="50px"></td>
+    <td class="w3-cell-top"><br><p class="text-redorange bold w3-xxlarge w3-left-align">Hope Project Paw Prints Tumbler</p><p class="w3-xlarge text-redorange bold w3-left-align">₱500<sup>00<br><br>
+
+    	<input onclick="addToCart()" style="height: 50px; width: 200px;" class="button-mud hover-button-pale w3-panel" width="120px" type="button" name="checkout" value="ADD TO CART" ><br>
+
+    	<a href="Checkout page.html"><input style="height: 50px; width: 200px;" class="button-orange hover-button-redorange w3-panel" width="120px" type="button" name="noname" value="BUY NOW" ></a><br>
+
+    	<p style="font-style: italic;" class="bold w3-justify">Insulated: Keeps your drinks ice cold or piping hot for hours.<br>Easy to carry: Easy to hold or to clip onto a bag or belt. Fits into most standard-size cup holders for easy transport by car or bike.</p></td>
+    <td style="width: 100px;">
+   </td>
+  </tr>
+</table>
+
+	<div class="w3-container ivory">
+		<table class="w3-centered" align="center" width="1000">
+			<tr>
+				<td style="text-align: left;">
+					<p class="text-mud"><b>GET IN TOUCH</b></p>
+					<p class="text-mud w3-small">For concerns and suggestions kindly contact us at:</p>
+					<p class="text-mud w3-small">hope@project.com</p>
+				</td>
+				<td style="text-align: left;">
+					<p class="text-mud"><b>NEWSLETTER</b></p>
+					<p class="text-mud w3-small">New products and sales directly to your inbox.</p>
+					<input class="ivory" type="email" name="emailaddress" placeholder="Email Address" id="clear">
+					<input type="submit" name="btnsignup" value="SIGNUP" style="padding: 5px;" class="button-orange hover-button-redorange" onclick="document.getElementById('clear').style.display= 'none'">
+				</td>
+			</tr>
+			<tr>
+				<td class="w3-border-top border-orange" colspan="2"><p class="w3-tiny text-mud">© 2022 HOPE PROJECT</p></td>
+			</tr>
+		</table>
+	</div>
+
+</body>
+</html>

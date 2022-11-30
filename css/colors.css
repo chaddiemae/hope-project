@@ -1,0 +1,93 @@
+.redorange,.hover-redorange:hover{
+	color:#000!important;
+	background-color:#db7746!important
+}
+
+.orange,.hover-orange:hover{
+	color:#000!important;
+	background-color:#f49f4a!important
+}
+
+.ivory,.hover-ivory:hover{
+	color:#000!important;
+	background-color:#ecdfcc!important
+}
+
+.pale,.hover-pale:hover{
+	color:#000!important;
+	background-color:#c0dacd!important
+}
+
+.mud,.hover-mud:hover{
+	color:#000!important;
+	background-color:#93ada2!important
+}
+
+.text-redorange,.hover-text-redorange:hover{
+	color:#db7746!important
+}
+
+.text-orange,.hover-text-orange:hover{
+	color:#f49f4a!important
+}
+
+.text-ivory,.hover-text-ivory:hover{
+	color:#ecdfcc!important
+}
+
+.text-pale,.hover-text-pale:hover{
+	color:#c0dacd!important
+}
+
+.text-mud,.hover-text-mud:hover{
+	color:#93ada2!important
+}
+
+.text-white,.hover-text-white:hover{
+	color:white!important
+}
+
+.bold{
+	font-family: "comic sans", inherit;
+}
+
+.button-redorange,.hover-button-redorange:hover{
+	color: white; padding: 12px;
+	 border: none;
+	 background-color: #db7746;
+}
+
+.button-orange,.hover-button-orange:hover{
+	color: white; padding: 12px;
+	border: none; background-color: #f49f4a;
+}
+
+.button-pale,.hover-button-pale:hover{
+	color: white; padding: 12px; 
+	border: none; background-color: #c0dacd;
+}
+
+.button-mud,.hover-button-mud:hover{
+	color: white; padding: 12px; 
+	border: none; background-color: #93ada2;
+}
+
+.border-redorange,.hover-border-redorange:hover{
+	border-color:#db7746!important
+}
+
+.border-orange.hover-border-orange:hover{
+	border-color:#f49f4a!important
+}
+
+.border-ivory,.hover-border-ivory:hover{
+	border-color:#ecdfcc!important
+}
+
+.border-pale,.hover-border-pale:hover{
+	border-color:#c0dacd!important
+}
+
+.border-mud,.hover-border-mud:hover{
+	border-color:#93ada2!important
+}

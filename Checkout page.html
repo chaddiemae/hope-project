@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hope Project</title>
+	<link rel="stylesheet" type="text/css" href="css/w3.css">
+	<link rel="stylesheet" type="text/css" href="css/colors.css">
+	<link rel="stylesheet" type="text/css" href="css/checkout.css">
+</head>
+<body>
+	<div class="w3-container ivory">
+		<table class="w3-centered" align="center" width="1200">
+			<tr align="center">
+			<td><img src="images\logo.png" style="width: 200px;"></td>
+			<td style="text-align: right;">
+			<p class="text-redorange bold hover-text-orange"><b>Welcome to Hope Project! Kindly read our Terms and Conditions before ordering.</b></p>
+			<p class="text-redorange bold"><b><span class="hover-text-orange"><a href="SignUp page.html">Login/Signup</a></span></b></p>
+			</td>
+			</tr>
+		</table>
+	</div>
+	<div class="w3-bar orange w3-card-4">
+		<p class="w3-bar-item text-white hover-text-pale bold "><a href="Home page.html">HOME PAGE</a></p>
+		<p class="w3-bar-item text-white hover-text-pale bold "><a href="Allmerch.html"> MERCH COMPILATION</a></p>
+		<p class="w3-bar-item text-white hover-text-pale bold"><a href="Terms.html">TERMS AND CONDITIONS</a></p>
+		<p class="w3-bar-item text-white hover-text-pale bold"><a href="Pawssion.html">PAWSSION PROJECT</a></p>
+	</div>	
+	
+	<!------ checkout page ------->
+
+	<div class="container">
+		<form action="">
+		<div class="row">
+			<div class="col">
+				<div class="head">
+				<h3 class="title">Contact Information</h3>
+				<h4 class="account">Already have an account?</h4><a href="LogIn page.html">Log In</a>
+				</div>
+				<div class="inputBox">
+					<span>Full Name: </span>
+					<input type="text" placeholder="Full Name">
+				</div>
+				<div class="inputBox">
+					<span>Email: </span>
+					<input type="text" placeholder="example@example.com">
+				</div>
+				<h3 class="title">Shipping Address</h3>
+				<div class="inputBox">
+					<span>Country/Region: </span>
+					<input type="text" placeholder="Philippines">
+				</div>
+				<div class="flex">
+					<div class="inputBox">
+					<span>City: </span>
+					<input type="text" placeholder="Cabanatuan City">
+						</div>
+					<div class="inputBox">
+					<span>Zip Code: </span>
+					<input type="text" placeholder="3100 Cabanatuan">
+					</div>
+				</div>
+				<div class="inputBox">
+					<span>Address: </span>
+					<input type="text" placeholder="Apartment, suite, etc.">
+				</div>
+				<div class="inputBox">
+					<span>Phone: </span>
+					<input type="text" placeholder="Phone Number">
+				</div>
+			</div>
+		</div>
+		<input type="submit" value="Place Order" class="submit-btn" onclick="display()">
+		</form>
+	</div>
+
+	<div class="w3-container ivory">
+		<table class="w3-centered" align="center" width="1000">
+			<tr>
+				<td style="text-align: left;">
+					<p class="text-mud"><b>GET IN TOUCH</b></p>
+					<p class="text-mud w3-small">For concerns and suggestions kindly contact us at:</p>
+					<p class="text-mud w3-small">hope@project.com</p>
+				</td>
+				<td style="text-align: left;">
+					<p class="text-mud"><b>NEWSLETTER</b></p>
+					<p class="text-mud w3-small">New products and sales directly to your inbox.</p>
+					<input class="ivory" type="email" name="emailaddress" placeholder="Email Address" id="clear">
+					<input type="submit" name="btnsignup" value="SIGNUP" style="padding: 5px;" class="button-orange hover-button-redorange" onclick="document.getElementById('clear').style.display= 'none'">
+				</td>
+			</tr>
+			<tr>
+				<td class="w3-border-top border-orange" colspan="2"><p class="w3-tiny text-mud">© 2022 HOPE PROJECT</p></td>
+			</tr>
+		</table>
+	</div>
+
+	<script>
+		function display(){
+			window.alert("Your order has been processed. Thank You!");
+		}
+	</script>
+</body>
+</html>
